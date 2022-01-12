@@ -13,16 +13,15 @@
 ## Structure
 
 src -↓
-->components
-->constants
-->context
-->helpers
-->hooks
-->pages
-->lib (firebase here)
-->services( firebase functions here)
--> styles (tailwind)
-
+->components <br/>
+->constants<br/>
+->context<br/>
+->helpers<br/>
+->hooks<br/>
+->pages<br/>
+->lib (firebase here)<br/>
+->services( firebase functions here)<br/>
+-> styles (tailwind)<br/>
 
 ### Aim
 
