@@ -1,9 +1,15 @@
+import React, { useState } from "react";
+import Nav from "./Nav/Nav";
+
 function App() {
+  const [darkMode, setDarkMode] = useState(true);
   return (
-    <div className="App min-h-full min-h-screen bg-slate-50">
-      <header className="App-header">
-        <h1>Metagram</h1>
-      </header>
+    <div className={`App   ${darkMode ? "dark" : ""}`}>
+      <div className="min-h-screen bg-slate-50 font-sans dark:bg-black ">
+        <header className="App-header">
+          <Nav darkMode={darkMode} setDarkMode={setDarkMode} />
+        </header>
+      </div>
     </div>
   );
 }
