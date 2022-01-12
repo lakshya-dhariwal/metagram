@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Nav from "./Nav/Nav";
+import Nav from "./components/Nav/Nav";
 
 function App() {
   const [darkMode, setDarkMode] = useState(true);
